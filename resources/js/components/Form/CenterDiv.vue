@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-col items-center">
+    <div class="bg-danger">
         <slot></slot> 
     </div>
 </template>
