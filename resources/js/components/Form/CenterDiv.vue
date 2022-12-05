@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-danger">
+    <div class="d-flex flex-column align-items-center">
         <slot></slot> 
     </div>
 </template>

@@ -1,6 +1,6 @@
 <template>
     <input
-      class="bg-gray-300 p-2 text-black mb-2 rounded  focus:ring  shadow-sm"
+      class="p-1"
       :id="id"
       :placeholder = placeholder
       :value="modelValue"

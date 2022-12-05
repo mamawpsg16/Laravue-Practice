@@ -1,7 +1,7 @@
 <template>
-    <div class="flex justify-center mt-5 space-x-12">
-        <router-link to="/" class="border-blue-400 rounded p-1 text-xl">Home</router-link>
-        <router-link to="/about" class="border-blue-400 rounded p-1 text-xl">About</router-link>
+    <div class="d-flex justify-content-between m-4 ">
+        <router-link to="/" class="border-blue-400 rounded p-1 fs-5 text-decoration-none text-capitalize">Home</router-link>
+        <router-link to="/about" class="border-blue-400 rounded p-1 fs-5 text-decoration-none text-capitalize">About</router-link>
     </div>
     <router-view></router-view>
 </template>

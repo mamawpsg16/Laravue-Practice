@@ -3,7 +3,7 @@ export function useWatchCount(valueToWatch,maxCount=20){
 /** WATCH */
     watch(valueToWatch,(newValue)=>{
         if(newValue == maxCount){
-            alert(`Only ${maxCount} characters allowed wtf`)
+            console.log(`Max ${maxCount} reached`);
         }
     })
 }
